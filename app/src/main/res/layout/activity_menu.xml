@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:padding="30dp"
+    android:gravity="center">
+
+    <!-- Título -->
+    <TextView
+        android:text="Pokédex - Menú"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#E3350D"
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    <!-- Botón Legendarios -->
+    <Button
+        android:id="@+id/btnLegendarios"
+        android:text="Pokémon Legendarios"
+        android:backgroundTint="#E3350D"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- Botón Pokéball -->
+    <Button
+        android:id="@+id/btnPokeball"
+        android:text="Pokéball"
+        android:backgroundTint="#E3350D"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- Botón Tipos -->
+    <Button
+        android:id="@+id/btnTipos"
+        android:text="Tipos de Pokémon"
+        android:backgroundTint="#E3350D"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
