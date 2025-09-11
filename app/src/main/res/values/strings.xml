@@ -1,3 +1,30 @@
-<string-array name="regiones">
-    <item>Kanto</item>
-</string-array>
+<resources>
+    <string name="trainer_registration_title">Registro de Entrenador</string>
+    <string name="name_hint">Nombre</string>
+    <string name="dob_hint">Fecha de nacimiento</string>
+    <string name="favorite_pokemon_hint">Pokémon preferido</string>
+    <string name="register_button_text">Registrarse</string>
+    <string name="pokedex_menu_title">Pokédex - Menú</string>
+    <string name="legendary_pokemon_button">Pokémon Legendarios</string>
+    <string name="pokeball_button">Pokéball</string>
+    <string name="pokemon_types_button">Tipos de Pokémon</string>
+    <string name="edit_profile_title">Editar Perfil</string>
+    <string name="profile_image_description">Imagen de perfil del usuario</string>
+    <string name="select_image_button_text">Seleccionar Imagen</string>
+    <string name="menu_button_text">Ir al Menú</string>
+    <string name="register_pokemon_data_title">Registrar Datos Pokémon</string>
+    <string name="take_photo_instruction">Saca fotos a cosas que se relacionen con el mundo Pokémon.</string>
+    <string name="captured_photo_description">Foto capturada</string>
+    <string name="capture_photo_button">Capturar Foto</string>
+    <string name="photo_gallery_title">Biblioteca de Fotos</string>
+    <string name="gallery_image_description">Una foto capturada</string>
+    <string name="menu_button_text2">Ir al Menú</string>
+    <string name="location_title">Registrar Hallazgo Pokémon</string>
+    <string name="location_instruction">¿Qué lugares has encontrado cosas relacionadas con Pokémon? Ingresa la ubicación y fecha.</string>
+    <string name="date_hint">Fecha</string>
+    <string name="country_hint">País</string>
+    <string name="city_hint">Ciudad</string>
+    <string name="address_hint">Dirección</string>
+    <string name="save_button">Guardar</string>
+    <string name="return_to_menu_button">Regresar al Menú</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:text="@string/register_pokemon_data_title"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#E3350D"
+        android:layout_marginBottom="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    <TextView
+        android:text="@string/take_photo_instruction"
+        android:textSize="16sp"
+        android:textColor="#B0B0B0"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"/>
+
+    <ImageView
+        android:id="@+id/ivCapturedPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/box_background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_camera_placeholder"
+        android:contentDescription="@string/captured_photo_description"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnCapturePhoto"
+        android:text="@string/capture_photo_button"
+        android:backgroundTint="#E3350D"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:padding="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:text="@string/menu_button_text"
+        android:backgroundTint="#E3350D"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:padding="14dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

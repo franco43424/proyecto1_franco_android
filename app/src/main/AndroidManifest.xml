@@ -12,13 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto1_franco_android">
         <activity
-            android:name=".activity_tipos"
+            android:name=".activity_editar_perfil"
             android:exported="false" />
         <activity
-            android:name=".activity_pokeball"
+            android:name=".activity_sacar_fotos"
             android:exported="false" />
         <activity
-            android:name=".activity_legendarios"
+            android:name=".activity_consulta_ubi"
             android:exported="false" />
         <activity
             android:name=".activity_menu"

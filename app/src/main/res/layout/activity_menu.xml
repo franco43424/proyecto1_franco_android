@@ -9,7 +9,7 @@
 
     <!-- Título -->
     <TextView
-        android:text="Pokédex - Menú"
+        android:text="@string/pokedex_menu_title"
         android:textSize="28sp"
         android:textStyle="bold"
         android:textColor="#E3350D"
@@ -21,7 +21,7 @@
     <!-- Botón Legendarios -->
     <Button
         android:id="@+id/btnLegendarios"
-        android:text="Pokémon Legendarios"
+        android:text="@string/legendary_pokemon_button"
         android:backgroundTint="#E3350D"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
@@ -32,7 +32,7 @@
     <!-- Botón Pokéball -->
     <Button
         android:id="@+id/btnPokeball"
-        android:text="Pokéball"
+        android:text="@string/pokeball_button"
         android:backgroundTint="#E3350D"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
@@ -43,7 +43,7 @@
     <!-- Botón Tipos -->
     <Button
         android:id="@+id/btnTipos"
-        android:text="Tipos de Pokémon"
+        android:text="@string/pokemon_types_button"
         android:backgroundTint="#E3350D"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
