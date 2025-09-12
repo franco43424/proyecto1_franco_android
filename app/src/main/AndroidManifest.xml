@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    >
+    package="com.example.proyecto1_franco_android">
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
 
     <application
         android:allowBackup="true"
@@ -13,7 +16,7 @@
         android:theme="@style/Theme.Proyecto1_franco_android">
 
         <activity
-            android:name=".activity_registro"
+            android:name=".RegistroActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,17 +25,18 @@
         </activity>
 
         <activity
-            android:name=".activity_editar_perfil"
+            android:name=".EditarPerfilActivity"
             android:exported="false" />
         <activity
-            android:name=".activity_sacar_fotos"
+            android:name=".SacarFotosActivity"
             android:exported="false" />
         <activity
-            android:name=".activity_consulta_ubi"
+            android:name=".ConsultaUbicacionActivity"
             android:exported="false" />
         <activity
-            android:name=".activity_menu"
+            android:name=".MenuActivity"
             android:exported="false" />
 
     </application>
+
 </manifest>

@@ -82,6 +82,16 @@
             android:autofillHints="postalAddress"/>
 
         <Button
+            android:id="@+id/btnOpenMaps"
+            android:text="@string/open_maps_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E3350D"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <Button
             android:id="@+id/btnGuardar"
             android:text="@string/save_button"
             android:backgroundTint="#E3350D"
