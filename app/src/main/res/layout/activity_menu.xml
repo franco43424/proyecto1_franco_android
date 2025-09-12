@@ -7,7 +7,6 @@
     android:padding="30dp"
     android:gravity="center">
 
-    <!-- Título -->
     <TextView
         android:text="@string/pokedex_menu_title"
         android:textSize="28sp"
@@ -18,10 +17,9 @@
         android:layout_height="wrap_content"
         android:gravity="center"/>
 
-    <!-- Botón Legendarios -->
     <Button
-        android:id="@+id/btnLegendarios"
-        android:text="@string/legendary_pokemon_button"
+        android:id="@+id/btnEditProfile"
+        android:text="@string/edit_profile_button_text"
         android:backgroundTint="#E3350D"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
@@ -29,10 +27,9 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"/>
 
-    <!-- Botón Pokéball -->
     <Button
-        android:id="@+id/btnPokeball"
-        android:text="@string/pokeball_button"
+        android:id="@+id/btnTakePhoto"
+        android:text="@string/take_photo_button_text"
         android:backgroundTint="#E3350D"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
@@ -40,13 +37,13 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"/>
 
-    <!-- Botón Tipos -->
     <Button
-        android:id="@+id/btnTipos"
-        android:text="@string/pokemon_types_button"
+        android:id="@+id/btnLocationQuery"
+        android:text="@string/location_query_button_text"
         android:backgroundTint="#E3350D"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
 </LinearLayout>

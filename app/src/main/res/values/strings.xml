@@ -4,10 +4,10 @@
     <string name="dob_hint">Fecha de nacimiento</string>
     <string name="favorite_pokemon_hint">Pokémon preferido</string>
     <string name="register_button_text">Registrarse</string>
-    <string name="pokedex_menu_title">Pokédex - Menú</string>
-    <string name="legendary_pokemon_button">Pokémon Legendarios</string>
-    <string name="pokeball_button">Pokéball</string>
-    <string name="pokemon_types_button">Tipos de Pokémon</string>
+    <string name="pokedex_menu_title">Menú</string>
+    <string name="edit_profile_button_text">Editar Perfil</string>
+    <string name="take_photo_button_text">Sacar Foto</string>
+    <string name="location_query_button_text">Consulta de Ubicación</string>
     <string name="edit_profile_title">Editar Perfil</string>
     <string name="profile_image_description">Imagen de perfil del usuario</string>
     <string name="select_image_button_text">Seleccionar Imagen</string>
@@ -27,4 +27,8 @@
     <string name="address_hint">Dirección</string>
     <string name="save_button">Guardar</string>
     <string name="return_to_menu_button">Regresar al Menú</string>
+    <string name="app_name">Mi App Pokémon</string>
+    <string name="app_name">Tu Aplicación</string>
+
+
 </resources>
