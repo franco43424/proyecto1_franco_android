@@ -1,3 +1,47 @@
-<string-array name="regiones">
-    <item>Kanto</item>
-</string-array>
+<resources>
+    <string name="trainer_registration_title">Registro de Entrenador</string>
+    <string name="name_hint">Nombre</string>
+    <string name="dob_hint">Fecha de nacimiento</string>
+    <string name="favorite_pokemon_hint">Pokémon preferido</string>
+    <string name="register_button_text">Registrarse</string>
+    <string name="pokedex_menu_title">Menú</string>
+    <string name="edit_profile_button_text">Editar Perfil</string>
+    <string name="take_photo_button_text">Sacar Foto</string>
+    <string name="location_query_button_text">Consulta de Ubicación</string>
+    <string name="edit_profile_title">Editar Perfil</string>
+    <string name="profile_image_description">Imagen de perfil del usuario</string>
+    <string name="select_image_button_text">Seleccionar Imagen</string>
+    <string name="menu_button_text">Ir al Menú</string>
+    <string name="register_pokemon_data_title">Registrar Datos Pokémon</string>
+    <string name="take_photo_instruction">Saca fotos a cosas que se relacionen con el mundo Pokémon.</string>
+    <string name="captured_photo_description">Foto capturada</string>
+    <string name="capture_photo_button">Capturar Foto</string>
+    <string name="photo_gallery_title">Biblioteca de Fotos</string>
+    <string name="gallery_image_description">Una foto capturada</string>
+    <string name="menu_button_text2">Ir al Menú</string>
+    <string name="location_title">Registrar Hallazgo Pokémon</string>
+    <string name="location_instruction">¿Qué lugares has encontrado cosas relacionadas con Pokémon? Ingresa la ubicación y fecha.</string>
+    <string name="date_hint">Fecha</string>
+    <string name="country_hint">País</string>
+    <string name="city_hint">Ciudad</string>
+    <string name="address_hint">Dirección</string>
+    <string name="save_button">Guardar</string>
+    <string name="return_to_menu_button">Regresar al Menú</string>
+    <string name="app_name">Mi App Pokémon</string>
+    <string name="save_changes_button">Guardar Cambios</string>
+    <string name="open_maps_button">Abrir en Maps</string>
+    <string-array name="pokemon_regions">
+        <item>Kanto</item>
+        <item>Johto</item>
+        <item>Hoenn</item>
+        <item>Sinnoh</item>
+        <item>Teselia</item>
+        <item>Kalos</item>
+        <item>Alola</item>
+        <item>Galar</item>
+    </string-array>
+
+
+
+</resources>
+
