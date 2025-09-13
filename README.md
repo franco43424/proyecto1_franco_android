@@ -1,2 +1,1 @@
-Integrantes:
-Franco Fajardo
+
